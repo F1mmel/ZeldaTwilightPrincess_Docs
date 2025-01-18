@@ -1,0 +1,89 @@
+---
+title: Decompiler Setup
+description: How to set up the decompiler
+sidebar_position: 1
+---
+
+The **decompiler** is the most helpful tool when it comes to reverse engineering. Whether you're decompiling code or working on documentation, you will need to set up the decompiler to progress.
+
+:::info Decompiler
+The decompiler is a program that translates assembly instructions into pseudocode (code that attempts to look like source code).
+:::
+
+The pseudocode emitted by the decompiler is often times not completely accurate or compilable code, but it can give you a much better idea of what the assembly code is doing. Using this pseudocode, you can clean it up and attempt to turn it into accurate and compilable code.
+
+The decompiler we will be using is **Ghidra**. With Ghidra, we have a shared project database that allows you to view any version of TP in Ghidra.
+
+To access the shared Ghidra project, we will first start with setting up a new user account for the Ghidra server.
+
+## Setting up a Ghidra account
+
+1. Go to https://ghidra.decomp.dev and link your Discord account.
+
+![](../../static/img/discord-signin.png)
+![](../../static/img/discord-auth.png)
+
+2. Request access to the TwilightPrincess server.
+
+![](../../static/img/ghidra-request-access.png)
+
+## Setting Up Ghidra
+
+1. To use Ghidra, you will need to first install JDK. Install one of the [OpenJDK 17](https://adoptium.net/de/temurin/releases/) versions depending on the platform you use and follow the installation wizard.
+
+2. Download the latest [RootCubed Ghidra](https://github.com/encounter/ghidra-ci/releases) build.
+
+4. Launch Ghidra by either running `./ghidraRun` inside a terminal or executing `ghidraRun.bat` (if you are on Windows).
+
+5. After opening Ghidra go to `File -> New Project...`. Click on `Shared Project` and use the information below in order to login with your new user. After logging in, change your password as prompted.
+```
+hostname:  ghidra.decomp.dev
+port:      13100
+username:  <your_username>
+password:  changeme
+```
+
+You should now be able to view the available projects
+
+![Ghidra Window](../../static/img/ghidra.png)
+
+You will want to checkout `gcn_usa` for working on decompilation. We also highly recommend checking-out `shield_chn_debug` as it offers much more insight into the code through debug strings, less aggressive function inlining, and extra debug tools.
+
+## Using Ghidra
+
+After opening a Ghidra project, you'll see a few different windows.
+
+![Ghidra Project Window](../../static/img/ghidra_prj_1.png)
+
+- **Decompile**: This is where the pseudocode is shown for a selected function.
+
+- **Listing**: This is where you will see the assembly code or data located at the specified address.
+
+- **Program Trees**: A list of the data sections within the program. Double-clicking a section will take you to that section in the Listing window.
+
+- **Symbol Tree**: This allows you to search for and edit symbols such as function signatures and namespaces.
+
+- **Data Type Manager**: This allows you to search for and edit data types.
+
+### Keyboard shortcuts
+
+#### General
+- Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> to bring up the `Program Text` search.
+- Press <kbd>G</kbd> to bring up the `Go To` window, where you can directly go to a specified memory address.
+
+#### Decompiler
+- Press <kbd>L</kbd> while highlighting a function name or data to bring up the `Rename` window.
+- Press <kbd>Ctrl</kbd>+<kbd>L</kbd> while highlighting data to bring up the `Data Type Chooser` window.
+
+#### Listing
+- Press <kbd>T</kbd> while highlighting data to bring up the `Data Type Chooser` window.
+- Press <kbd>[</kbd> while highlighting data to create an array.
+- After having changed the data type of some data, Press <kbd>Y</kbd> while highlighting data to change it to the last used data type.
+
+### Tutorial
+Here is a tutorial by Taka going over the basics of using Ghidra to setup data structures.
+<iframe height="315" width="560" src="https://www.youtube.com/embed/fMQ_Thv93Ws" allowfullscreen="true"/>
+
+## Problems?
+
+You can always ask for help on the [Zelda Decompilation Discord server](https://discord.zelda.deco.mp/) in the #tp-decomp channel!
