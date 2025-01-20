@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdecomp_www=self.webpackChunkdecomp_www||[]).push([[139],{8331:e=>{e.exports=JSON.parse('{"label":"updates","permalink":"/blog/tags/updates","allTagsPath":"/blog/tags","count":1}')}}]);

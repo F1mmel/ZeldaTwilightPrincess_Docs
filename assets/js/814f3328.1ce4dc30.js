@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdecomp_www=self.webpackChunkdecomp_www||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"All Updates","items":[{"title":"January 2025","permalink":"/blog/updates"}]}')}}]);

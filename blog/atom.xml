@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zelda.fimmel.dev/blog</id>
+    <title>Twilight Princess Remastered Blog</title>
+    <updated>2025-01-20T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zelda.fimmel.dev/blog"/>
+    <subtitle>Twilight Princess Remastered Blog</subtitle>
+    <icon>https://zelda.fimmel.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[January 2025]]></title>
+        <id>updates</id>
+        <link href="https://zelda.fimmel.dev/blog/updates"/>
+        <updated>2025-01-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Current Development Status]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="current-development-status"><strong>Current Development Status</strong><a class="hash-link" href="#current-development-status" title="Direct link to heading">​</a></h2><p>We are excited to share the progress of our fan project! Below is a detailed log of updates, new features, and planned improvements.</p><hr><h2 class="anchor anchorWithStickyNavbar_LWe7" id="changelog"><strong>Changelog</strong><a class="hash-link" href="#changelog" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="january-2025"><strong>January 2025</strong><a class="hash-link" href="#january-2025" title="Direct link to heading">​</a></h3><ul><li><p><strong>Graphics &amp; Visuals</strong>:</p><ul><li>Enhanced lighting system to improve realism and match the original Twilight Princess aesthetic.</li><li>Updated texture resolution for character models, environment assets, and UI elements.</li><li>Added post-processing effects, including bloom and ambient occlusion, for a polished visual experience.</li></ul></li><li><p><strong>Gameplay Mechanics</strong>:</p><ul><li>Improved combat system with smoother animations and hit detection.</li><li>Recreated the original horseback riding mechanics for seamless player control.</li><li>Enhanced enemy AI to make encounters more dynamic and challenging.</li></ul></li><li><p><strong>Environment &amp; World</strong>:</p><ul><li>Fully remastered Ordon Village with updated geometry, textures, and lighting.</li><li>Improved foliage interaction using Unity's Shader Graph for dynamic vegetation movement.</li><li>Recreated Twilight Realm effects with custom shaders.</li></ul></li><li><p><strong>Audio</strong>:</p><ul><li>Remastered background music with high-quality samples inspired by the original soundtrack.</li><li>Implemented 3D positional audio for immersive environmental effects.</li><li>Added voiceover placeholders for key cutscenes.</li></ul></li><li><p><strong>UI Improvements</strong>:</p><ul><li>Redesigned HUD to better match modern resolutions while retaining the original feel.</li><li>Added scalable elements for better support across multiple screen sizes.</li></ul></li><li><p><strong>Other Features</strong>:</p><ul><li>Initial implementation of a save/load system for player progress.</li><li>Added a debug menu for internal testing and troubleshooting.</li><li>Optimized game performance for stable framerate across mid-tier hardware.</li></ul></li></ul><hr><h2 class="anchor anchorWithStickyNavbar_LWe7" id="planned-features"><strong>Planned Features</strong><a class="hash-link" href="#planned-features" title="Direct link to heading">​</a></h2><ul><li>Implementing the Wolf Link transformation mechanics, including new animations and unique abilities.</li><li>Adding side quests and collectibles inspired by the original game.</li><li>Refining cutscenes with dynamic camera angles and character interactions.</li><li>Introducing a photo mode to capture the remastered visuals.</li><li>Exploring multiplayer or co-op functionality for certain segments, depending on demand.</li></ul><hr><h2 class="anchor anchorWithStickyNavbar_LWe7" id="notes"><strong>Notes</strong><a class="hash-link" href="#notes" title="Direct link to heading">​</a></h2><ul><li><strong>Platforms</strong>: Targeting PC (Windows) as the primary platform, with potential future expansion to mobile devices.</li><li><strong>Release</strong>: No fixed release date yet; the project remains in active development.</li></ul><hr><p>Thank you for your support as we continue to work on this passion project! Stay tuned for more updates.</p>]]></content>
+        <author>
+            <name>Fimmel</name>
+            <email>contact@fimmel.dev</email>
+            <uri>https://github.com/F1mmel</uri>
+        </author>
+        <category label="updates" term="updates"/>
+    </entry>
+</feed>

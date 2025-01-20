@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdecomp_www=self.webpackChunkdecomp_www||[]).push([[713],{3457:e=>{e.exports=JSON.parse('[{"label":"updates","permalink":"/blog/tags/updates","count":1}]')}}]);
