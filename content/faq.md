@@ -16,7 +16,7 @@ If you have suggestions, ideas, or encounter any issues, please consider the fol
 1. **GitHub Issues**  
    Report bugs or feature requests directly in our [GitHub Issues section](https://github.com/F1mmel/ZeldaTwilightPrincessRemastered/issues).
 2. **Discord Feedback**  
-   Share your thoughts in the `#tp-feedback` channel on our [Zelda Remastered Discord](https://discord.gg/WK8umpGm).
+   Share your thoughts in the `#tp-feedback` channel on our [Zelda Remastered Discord](https://discord.gg/5c6mMqg3zf).
 3. **Email**  
    Send detailed feedback via email to: `contact@fimmel.dev`
 

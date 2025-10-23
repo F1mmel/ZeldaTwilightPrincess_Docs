@@ -29,7 +29,7 @@ Visit our [GitHub repository](https://github.com/F1mmel/ZeldaTwilightPrincessRem
 
 Join our **official Discord server** to connect with the community and the development team:
 
-**[Join the Discord Server](https://discord.gg/cSEK6Vr7)**
+**[Join the Discord Server](https://discord.gg/5c6mMqg3zf)**
 
 Here you’ll find:
 
